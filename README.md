@@ -16,15 +16,14 @@ This application follows a well-structured, layered architecture and adheres to 
 
 ## API Endpoints
 ### Owner Endpoints
-+ **POST /api/owners:** Adds a new owner to the system. </br>
-+ **GET /api/owners/{ownerId}:** Retrieve owner details by ID. </br>
-+ **PUT /api/owners/{ownerId}/pets:** Update owner details. </br>
++ **POST /api/owners:** Adds a new owner to the system. 
++ **GET /api/owners/{ownerId}:** Retrieve owner details by ID.
++ **PUT /api/owners/{ownerId}/pets:** Update owner details.
 + **DELETE /api/owners/{ownerId}:** Delete owner.
-
 ### Pet Endpoints
 + **GET /api/pets/{petId}:** Fetches details of a pet by its unique ID.
 
-### Technologies Used
+## Technologies Used
 + **Language:** Java 17
 + **Framework:** Spring Boot 3.x
 + **Database:** MySQL (or mention your database)
