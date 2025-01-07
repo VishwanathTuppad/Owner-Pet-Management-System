@@ -21,10 +21,6 @@ public class OwnerController {
     @Autowired
     private OwnerService ownerService;
 
-//    public OwnerController(OwnerService ownerService) {
-//        this.ownerService = ownerService;
-//    }
-
     // Save a new owner
     @PostMapping
     public ResponseEntity<String> saveOwner(@Valid @RequestBody OwnerDTO ownerDTO) {

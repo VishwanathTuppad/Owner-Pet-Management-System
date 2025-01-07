@@ -19,10 +19,6 @@ public class PetController {
     @Autowired
     private PetService petService;
 
-//    public PetController(PetService petService) {
-//        this.petService = petService;
-//    }
-
     // Get pet by ID
     @GetMapping("/{petId}")
     public ResponseEntity<PetDTO> findPet(@PathVariable int petId) {
